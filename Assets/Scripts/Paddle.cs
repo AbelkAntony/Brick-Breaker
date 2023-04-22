@@ -49,7 +49,7 @@ public class Paddle : MonoBehaviour
             Vector3 paddlePosition = this.transform.position;
             Vector2 contactPoint = collision.GetContact(0).point;
 
-            float offset = paddlePosition.x = contactPoint.x;
+            float offset = paddlePosition.x - contactPoint.x;
             float width = collision.otherCollider.bounds.size.x / 2;
 
             float currentAngle = Vector2.SignedAngle(Vector2.up, ball.rigidbody.velocity);
@@ -59,5 +59,11 @@ public class Paddle : MonoBehaviour
             Quaternion rotation = Quaternion.AngleAxis(newAngle, Vector3.forward);
             ball.rigidbody.velocity = rotation * Vector2.up * ball.rigidbody.velocity.magnitude;
         }
+    }
+
+    public void ResetPaddle()
+    {
+        this.transform.position = new Vector2(0f,this.transform.position.y);
+        this.rigidbody.velocity = Vector2.zero;
     }
 }
