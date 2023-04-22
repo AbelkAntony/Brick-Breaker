@@ -10,4 +10,14 @@ In this game I use some calculations to get the bouncing angle to the ball when 
 
 To minus the life I use a script for the wall at the down weather the ball collide the wall by on collision enter 2d function to detect the collision
 
-by using same method on the brick I use the same function to add the points to the player when the ball hit the brick
+By using same method on the brick I use the same function to add the points to the player when the ball hit the brick
+
+
+# ScreenShots
+
+![Capture1](/ScreenShots/1.png)
+![Capture1](/ScreenShots/2.png)
+![Capture1](/ScreenShots/3.png)
+![Capture1](/ScreenShots/4.png)
+![Capture1](/ScreenShots/5.png)
+
