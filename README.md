@@ -13,6 +13,10 @@ To minus the life I use a script for the wall at the down weather the ball colli
 By using same method on the brick I use the same function to add the points to the player when the ball hit the brick
 
 
+
+https://user-images.githubusercontent.com/122546743/234296884-d360d6e5-6d4e-42e6-8ce3-b6da256d9fc3.mov
+
+
 # ScreenShots
 
 ![Capture1](/ScreenShots/1.png)
